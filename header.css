@@ -1,0 +1,47 @@
+.header{
+    background-color: black;
+    display: flex;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.left-section{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+
+}
+ 
+.amazon-icon{
+    display: flex;
+    align-items: left;
+    margin-left: 15px;
+    height: 40px;
+    width: 100px;
+}
+
+.welcome-note{
+    color: white;
+    margin-left: 20px;
+    font-family:Roboto,Arial ;
+}
+.hello{
+    color:#ccc;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.location-note{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 0px;
+    line-height: 14px;
+}
