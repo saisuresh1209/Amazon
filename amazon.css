@@ -5,4 +5,8 @@ p{
 
 body{
     height: 5000px;
+    padding-top: 90px;
+    margin: 0;
+   background-color: #CCC;
 }
+

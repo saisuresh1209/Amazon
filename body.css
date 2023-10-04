@@ -1,0 +1,96 @@
+.main-tumbnail{
+    object-fit: cover;
+    position: relative;
+    width: 1550px;
+    position: relative;
+    background-image: linear-gradient(to bottom, none,#CCC);
+}
+
+.box{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    height: 400px;
+    position: absolute;
+    top: 340px;
+    margin-left: 20px;
+    
+}
+
+.box1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    height: 400px;
+   
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.top-content{
+    
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    width: 300px;
+    color: rgb(15, 17, 17);
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 27.3px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.watch-tumbnail{
+    display: flex;
+    height: 250px;
+    width: 300px;
+    padding-left: 25px;
+    margin-top: 0;
+    padding-top: 0px;
+}
+
+.bottom-content{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    color: rgb(41, 145, 180);
+    font-family: Roboto,Arial;
+    font-size: 15px;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.headphones-grid{
+    width: 350px;
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.boult{
+    margin-top: 20px;
+    width: 150px;
+    height: 100px;
+    padding-left: 15px;
+}
+
+.offers-tag{
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    padding-left: 15px;
+  
+
+}
