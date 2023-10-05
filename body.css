@@ -84,7 +84,7 @@ p{
     margin-top: 20px;
     width: 150px;
     height: 100px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .offers-tag{
@@ -93,4 +93,112 @@ p{
     padding-left: 15px;
   
 
+}
+
+.top-discription{
+    margin-left: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.deals-tab{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 1500px;
+    column-gap: 5px;
+    height: 350px;
+    background-color: white;
+    margin-top: 20px;
+     margin-left: 20px;
+     position: relative;
+}
+
+.deals-tab1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 1500px;
+    column-gap: 5px;
+    height: 300px;
+    background-color: white;
+    margin-top: 20px;
+     margin-left: 20px;
+     position: relative;
+}
+
+
+
+.top{
+    position: absolute;
+}
+
+.deal-day{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.wallpaper{
+    width:184px;
+    height: 184px;
+    object-fit: contain;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    border: 0.1px;
+    border-style: solid;
+    border-color: #CCC;
+}
+
+.wallpaper1{
+   
+    object-fit: contain;
+    padding: 10px 25px;
+    
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+
+.discount-details{
+    font-family: Roboto,Arial;
+    padding: 4px 8px;
+    background-color: rgb(212, 33, 33);
+    color: white;
+    width: 80px;
+    margin-right: 5px;
+    border-radius: 2px;
+    font-size: 13px;
+   
+
+}
+
+.deal{
+    font-family: Roboto, Arial;
+    background-color: white;
+    font-weight: 300;
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.discripition{
+  
+    font-family: Roboto,Arial;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.middle{
+  
+    margin-top: 50px;
+}
+
+.middle1{
+    margin-top: 50px;
+    margin-left: 20px;
 }
