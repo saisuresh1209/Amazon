@@ -1,9 +1,31 @@
 .main-tumbnail{
     object-fit: cover;
-    position: relative;
     width: 1550px;
     position: relative;
-    background-image: linear-gradient(to bottom, none,#CCC);
+}
+
+.body-bottom{
+    margin-top: 50px;
+    object-fit: cover;
+    width: 1550px;
+    position: relative;
+}
+
+
+.left-bar{
+    font-size: 60px;
+    color: #e7dfdf;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.right-bar{
+    position: absolute;
+    color: #e9e8e8;
+    font-size: 60px;
+    right: 40px;
+    top: 200px;
 }
 
 .box{
@@ -72,6 +94,13 @@ p{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.body1{
+    margin-top: -25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
 
 .headphones-grid{
     width: 350px;
@@ -113,6 +142,47 @@ p{
     margin-top: 20px;
      margin-left: 20px;
      position: relative;
+
+}
+
+.indication-left{
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.indication-right{
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 125px;
+    right: 9px;
+    opacity: 2;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.3);
+    
+}
+
+.left-indi{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 1000;
+    padding-left: 19px;
+    padding-top: 25px;
+    opacity: 0.5;
+}
+
+.right-indi{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 1000;
+    padding-left: 19px;
+    padding-top: 25px;
+    opacity: 0.5;
 }
 
 .deals-tab1{
@@ -144,6 +214,7 @@ p{
     height: 184px;
     object-fit: contain;
     padding: 10px 25px;
+    background-color: #f7f3f3;
     margin-top: 20px;
     border-radius: 2px;
     margin-bottom: 10px;
